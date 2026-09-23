@@ -1,0 +1,64 @@
+/*
+   South County Threadz - Main Stylesheet
+
+   Design System:
+   - WCAG AA accessibility compliance
+   - Mobile-first responsive design
+   - Semantic, maintainable CSS
+*/
+
+:root {
+    /* Placeholder: Colors and typography to be defined */
+    --color-primary: #000;
+    --color-secondary: #fff;
+    --font-family-base: system-ui, -apple-system, sans-serif;
+    --font-size-base: 1rem;
+    --spacing-unit: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+}
+
+/* Placeholder: Styles to be built */
+
+/* Ensure proper heading hierarchy */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin-top: calc(var(--spacing-unit) * 1.5);
+    margin-bottom: var(--spacing-unit);
+}
+
+/* Mobile-first responsive */
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 18px;
+    }
+}

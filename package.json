@@ -1,0 +1,24 @@
+{
+  "name": "south-county-threadz",
+  "version": "1.0.0",
+  "description": "Professional landing page for South County Threadz - curated new and pre-loved brand-name clothing and fashion finds",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"No tests configured yet\""
+  },
+  "keywords": [
+    "fashion",
+    "clothing",
+    "retail",
+    "static-site"
+  ],
+  "author": "Sweet Creatives",
+  "license": "PROPRIETARY",
+  "repository": {
+    "type": "git",
+    "url": "TBD"
+  },
+  "homepage": "TBD",
+  "devDependencies": {},
+  "dependencies": {}
+}
