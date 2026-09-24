@@ -880,6 +880,10 @@ section {
         font-size: var(--font-size-xs);
     }
 
+    .platform-grid {
+        grid-template-columns: 1fr;
+    }
+
     .cta-button {
         padding: var(--spacing-md) var(--spacing-lg);
         font-size: var(--font-size-base);
